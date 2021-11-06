@@ -25,12 +25,13 @@
   /* Card Section Stylings */
 
   .card-section {
-    height: 800px;
+    height: 900px;
   }
 
   .card-section-holder {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
   }
 
   /* Card Section Stylings */

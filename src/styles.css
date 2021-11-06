@@ -162,6 +162,7 @@ h1 {
 
 .card {
   border: none !important;
+  border-bottom: 5px ridge var(--brandColor) !important;
   width: 350px;
 }
 
@@ -240,6 +241,7 @@ h1 {
   padding: 15px;
   border-radius: 10px;
   box-shadow: 1px 2px 3px #dfdfdf;
+  border-bottom: 5px ridge var(--brandColor) !important;
 }
 
 .side-by-side .p1 {
