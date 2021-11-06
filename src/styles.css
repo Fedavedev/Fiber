@@ -122,6 +122,10 @@ h1 {
   border-bottom: 3px ridge var(--brandColor);
 }
 
+.m-d {
+  display: none;
+}
+
 /* Hero Section Stylings Ends Here */
 
 .card-section {

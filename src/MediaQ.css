@@ -6,11 +6,7 @@
   }
 
   .hero-img {
-    width: 80%;
-  }
-
-  .h1-p {
-    width: 350px;
+    width: 100%;
   }
 
   .stars-holder,
@@ -23,18 +19,34 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .checks {
+  .m-d {
     margin-top: 20px;
-    max-width: 350px;
-    word-wrap: break-word;
+    display: block;
+  }
+
+  .checks {
+    display: none;
   }
 
   .hero-container {
-    max-width: 350px;
+    /*   max-width: 350px;
     padding-top: 60px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
+     */
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+
+  .hero-col-1 {
+    text-align: center;
+  }
+
+  .hero-col-2 {
+    text-align: center;
   }
 
   h1 {
