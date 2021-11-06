@@ -2,7 +2,7 @@
   /* Hero Section Stylings */
 
   .hero-section {
-    height: 1100px;
+    height: 900px;
   }
 
   .hero-img {
@@ -14,7 +14,14 @@
     display: none;
   }
 
+  .btn-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .hero-container {
+    max-width: 350px;
+    padding-top: 60px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
