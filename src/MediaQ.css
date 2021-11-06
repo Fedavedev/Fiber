@@ -9,6 +9,10 @@
     width: 80%;
   }
 
+  .h1-p {
+    width: 350px;
+  }
+
   .stars-holder,
   .p-ass {
     display: none;
@@ -19,11 +23,18 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .checks {
+    margin-top: 20px;
+    max-width: 350px;
+    word-wrap: break-word;
+  }
+
   .hero-container {
     max-width: 350px;
     padding-top: 60px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
   }
 
   h1 {
@@ -56,6 +67,10 @@
     height: 800px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .p-h2 {
+    font-size: 27px !important;
   }
 
   .p-card {
